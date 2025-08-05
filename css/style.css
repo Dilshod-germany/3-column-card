@@ -1,117 +1,124 @@
 @import "./fonts.css";
 @import "./normalize.css";
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    display: inline-block;
+a {
+  text-decoration: none;
+  display: inline-block;
 }
 
-.container{
-    padding-left: 48px;
+.container {
+  padding-left: 48px;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend Deca";
 }
 
 .main {
-    margin:auto;
+  margin: auto;
 }
 
 .card {
-    display: flex;
-    width:921px;
-    height: 500px;
-    border-radius: 8px;
+  display: flex;
+  width: 921px;
+  height: 500px;
+  border-radius: 8px;
 }
 
 .card__item {
-    background-color: #e28625;
-    width: 307px;
-    height: 500px;
+  background-color: #e28625;
+  width: 307px;
+  height: 500px;
+  padding: 48px;
 }
 
 .card__item_img {
-    margin-top: 40px;
+  margin-bottom: 35px;
 }
 
 .card__item_title {
-    padding-top: 35px;
-    font-family: "Big Shoulders Display";
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color:#f2f2f2;
+  margin-bottom: 25px;
+  font-family: "Big Shoulders";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #f2f2f2;
 }
 
 .card__item_description {
-    padding-top: 25px;
-    opacity: 75%;
-    font-family: "Lexend Deca";
-    font-size: 15px;
-    line-height: 25px;
-    font-weight:400;
-    color: #ffffff;
-    width: 212px;
-    height: 125px;
+  opacity: 75%;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 212px;
+  height: 125px;
+  margin-bottom: 83px;
 }
+
 .card__item_btn {
-    margin-top: 83px;
-    width: 146px;
-    height: 48px;
-    border-radius: 25px;
-    background-color: #f2f2f2;
-    font-family: "Lexend Deca";
-    font-size: 15px;
-    line-height: 25px;
-    color: #E28625;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  line-height: 25px;
+  color: #e28625;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card__item_btn:hover{
-    background-color: #E28625;
-    color:#f2f2f2;
-    border: 2px solid #ffffff;
-     transition: transform 0.2s ease;
+.card__item_btn:hover {
+  background-color: #e28625;
+  color: #f2f2f2;
+  border: 2px solid #ffffff;
+  transition: transform 0.2s ease;
 }
 
-.card__item_btn:active{
-    transform: scale(1.1);
+.card__item_btn:active {
+  transform: scale(1.1);
 }
 
-.card__item_second{
-    background-color: #006971;
+.card__item_first {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
-.btn__second{
-    color: #006971;
+.card__item_second {
+  background-color: #006971;
 }
 
-.btn__second:hover{
-    background-color: #006971;
+.btn__second {
+  color: #006971;
 }
 
-.card__item_trithy{
-    background-color: #004140;
+.btn__second:hover {
+  background-color: #006971;
 }
 
-.btn__trithy{
-    color:#004140;
+.card__item_trithy {
+  background-color: #004140;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
-.btn__trithy:hover{
-    background-color: #004140;
+.btn__trithy {
+  color: #004140;
+}
+
+.btn__trithy:hover {
+  background-color: #004140;
 }
